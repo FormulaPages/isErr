@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/FormulaPages/iserr/issues"
   },
-  "homepage": "https://github.com/FormulaPages/iserr#readme"
+  "homepage": "https://github.com/FormulaPages/iserr#readme",
+  "dependencies": {
+    "formula-errors": "^1.0.0"
+  }
 }
