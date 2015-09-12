@@ -1,6 +1,6 @@
 {
   "name": "formula-iserr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks for any error except for error.NA",
   "main": "index.js",
   "scripts": {
