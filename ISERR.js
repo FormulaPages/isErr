@@ -24,6 +24,6 @@
                            return false;
                   }
                   value = value.valueOf();
-                  return [_error['default'].nil, _error['default'].value, _error['default'].ref, _error['default'].name, _error['default'].num, _error['default'].na, _error['default'].error, _error['default'].data, _error['default'].missing, _error['default'].unknown].indexOf(value) >= 0 || typeof value === 'number' && (value !== value || !isFinite(value)); // ensure numbers are not NaN or Infinity
+                  return [_error['default'].nil, _error['default'].value, _error['default'].ref, _error['default'].name, _error['default'].num, _error['default'].error, _error['default'].data, _error['default'].missing, _error['default'].unknown].indexOf(value) >= 0 || typeof value === 'number' && (value !== value || !isFinite(value)); // ensure numbers are not NaN or Infinity
          }
 });

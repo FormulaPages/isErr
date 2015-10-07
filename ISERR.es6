@@ -9,7 +9,6 @@ export default function ISERR(value) {
            error.ref,
            error.name,
            error.num,
-           error.na,
            error.error,
            error.data,
            error.missing,

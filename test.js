@@ -12,7 +12,7 @@ describe('iserr', function() {
     assert( iserr(error.ref), 'Should be error');
     assert( iserr(error.name), 'Should be error');
     assert( iserr(error.num), 'Should be error');
-    assert( iserr(error.na), 'Should be error');
+    assert( iserr(error.na) === false, 'Should not be error');
     assert( iserr(error.error), 'Should be error');
     assert( iserr(error.data), 'Should be error');
     assert( iserr(error.missing), 'Should be error');
